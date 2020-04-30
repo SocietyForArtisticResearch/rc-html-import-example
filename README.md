@@ -3,7 +3,7 @@ This is a demo HTML exposition
 
 This is a demo exposition for the HTML import feature of the RC. The
 HTML import feature allows you to directly import a simple static HTML website. 
-Any embedded media files will be automatically transcoded. 
+Any embedded media files will be automatically transcoded to a smaller size. 
 
 Requirements:
 -------------
