@@ -14,7 +14,7 @@ Requirements:
 * A common issue is that apastrof's are displayed as the infamous `"â€™"`.
   To avoid, always include `<meta charset="utf-8">` in all your .html files.
   Also make sure, you specify this charset in `<head>` _before anything else_, thus:
-
+`
     <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
@@ -23,7 +23,7 @@ Requirements:
 		etc...
     </head>
     <body>
-	
+`	
  	
 * You can use .html, .css, image, pdf, audio and video files. 
 * JavaScript is currently not supported for security reasons, if present, import will fail.
