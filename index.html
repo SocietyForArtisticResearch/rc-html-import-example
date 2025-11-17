@@ -5,27 +5,7 @@
   <!-- tip: do not move  <meta charset="utf-8"> below other things, should always come first! -->
   <title>The RC HTML Import Example - testing chars '</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background-color: #fff;
-            box-shadow: 5px 5px 25px #888;
-        }
-
-        body {
-            background-color: #e9e9e9;
-        }
-
-        h1.main-header {
-            font-size: 4em;
-            margin-top: 0;
-        }
-
-        *+* {
-            margin-top: 0.5em 0.5em;
-        }
-    </style>
+    <link rel="stylesheet" href="mystyles.css">
 </head>
 
 <body>
@@ -37,6 +17,7 @@
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam tristique diam non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam vestibulum accumsan nisl.<br><br>
         </p>
 	<p>test characters:  ", "å", "ø", "æ", "Å", "Ø", "Æ"</p>
+        <h1>A code file</h1>
 	
         <h2>A smaller h2 header</h2>
         <img class="small float-left" src="images/fish-6.jpg">
@@ -51,10 +32,19 @@
         <img class="big" src="images/lotje copy.jpeg">
 
         <img class="small" src="images/first web server.jpeg">
+
+        <img class="small" src="images/graph.svg">
+        <p>An audio recording</p>
         <audio controls>
             <source src="audio/LudvigVan110.wav" type="audio/wav">
             Your browser does not support the audio element.
         </audio>
+        <br>
+        <p>A video recording</p>
+        <video controls>
+            <source src="movies/ants.mp4" type="video/mp4">
+            Your browser does not support the audio element.
+        </video>
 
         <h3>Even smaller headers, this is an h3</h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing

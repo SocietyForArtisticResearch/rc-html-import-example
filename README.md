@@ -14,6 +14,7 @@ Requirements:
 * You can use .html, .css, image, pdf, audio and video files. 
 * JavaScript is currently not supported for security reasons, if present, import will fail.
 * The character encoding of the .html files should be UTF-8
+* At this moment, only a single "styles.css" is supported.
 
 A common issue is that apastrof's are displayed as the infamous `"â€™"`.
 To avoid, always include `<meta charset="utf-8">` in all your .html files.
